@@ -1,16 +1,33 @@
-# Pizza Runner
-<img src="https://user-images.githubusercontent.com/81607668/127271856-3c0d5b4a-baab-472c-9e24-3c1e3c3359b2.png" alt="Image" width="500" height="520">
-Danny is expanding his new Pizza Empire and at the same time, he wants to Uberize it, so Pizza Runner was launched!
+# Case Study #2: Pizza Runner  (26/05/2021)
+<img src="https://8weeksqlchallenge.com/images/case-study-designs/2.png" alt="Image" width="450" height="450">
 
-Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runner Headquarters (otherwise known as Danny’s house) and also maxed out his credit card to pay freelance developers to build a mobile app to accept orders from customers. 
+## 📕 Table of Contents
+- [Business Inquiries](#business-inquiries)
+- [Entity Relationship Diagram](#entity-relationship-diagram)
+- [Case Study Questions](#case-study-questions)
+- [Solution Code](https://github.com/AymericPeltier/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/SQL_code.sql)
+- [Solution output](https://github.com/AymericPeltier/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/SQL_Output)
+
+***
+
+### Business Inquiries:
+Danny decided to expand his Pizza business and Uberize it. Thus, he launches "Pizza Runner": he recruited runners to deliver pizza from his Headquarters and is developping an app.
+
+He has many questions to be answered related to different general topic:
+* Pizza Metrics
+* Runner and Customer Experience
+* Ingredient Optimisation
+* Pricing and Ratings
 
 ## Entity Relationship Diagram
 
-![image](https://user-images.githubusercontent.com/81607668/127271531-0b4da8c7-8b24-4a14-9093-0795c4fa037e.png)
+![Entity diagram](/images/ER_case_2.png?raw=true "ER case 2")
 
 ## Case Study Questions
+View my solution [here](https://github.com/AymericPeltier/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232:%20Pizza%20Runner/SQL_code/Complete_Solution)
 
 ### A. Pizza Metrics
+
 1. How many pizzas were ordered?
 2. How many unique customer orders were made?
 3. How many successful orders were delivered by each runner?
@@ -23,6 +40,7 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 10. What was the volume of orders for each day of the week?
 
 ### B. Runner and Customer Experience
+
 1. How many runners signed up for each 1 week period? (i.e. week starts 2021-01-01)
 2. What was the average time in minutes it took for each runner to arrive at the Pizza Runner HQ to pickup the order?
 3. Is there any relationship between the number of pizzas and how long the order takes to prepare?
@@ -32,6 +50,7 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 7. What is the successful delivery percentage for each runner?
 
 ### C. Ingredient Optimisation
+
 1. What are the standard ingredients for each pizza?
 2. What was the most commonly added extra?
 3. What was the most common exclusion?
@@ -45,6 +64,7 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 7. What is the total quantity of each ingredient used in all delivered pizzas sorted by most frequent first?
 
 ### D. Pricing and Ratings
+
 1. If a Meat Lovers pizza costs $12 and Vegetarian costs $10 and there were no charges for changes - how much money has Pizza Runner made so far if there are no delivery fees?
 2. What if there was an additional $1 charge for any pizza extras?
 - Add cheese is $1 extra
@@ -61,3 +81,9 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 - Average speed
 - Total number of pizzas
 5. If a Meat Lovers pizza was $12 and Vegetarian $10 fixed prices with no cost for extras and each runner is paid $0.30 per kilometre traveled - how much money does Pizza Runner have left over after these deliveries?
+
+### E. Bonus Questions
+
+If Danny wants to expand his range of pizzas - how would this impact the existing data design? Write an INSERT statement to demonstrate what would happen if a new Supreme pizza with all the toppings was added to the Pizza Runner menu?
+
+***
